@@ -1,0 +1,9 @@
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)' -in gene_list.txt -out genes_and_metastasis.csv" > _01_genes_metastasis.sh
+echo "python3 find_articles_pubMed.py -c '(MIGRATION)' -in gene_list.txt -out genes_and_migration.csv" > _02_genes_migration.sh
+echo "python3 find_articles_pubMed.py -c '(INVASION)' -in gene_list.txt -out genes_and_invasion.csv" > _03_genes_invasion.sh
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)+OR+(MIGRATION)+OR+(INVASION)' -in gene_listaa -out genes_and_all_1.csv" > _04_genes_all_1.sh
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)+OR+(MIGRATION)+OR+(INVASION)' -in gene_listab -out genes_and_all_2.csv" > _04_genes_all_2.sh
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)+OR+(MIGRATION)+OR+(INVASION)' -in gene_listac -out genes_and_all_3.csv" > _04_genes_all_3.sh
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)+OR+(MIGRATION)+OR+(INVASION)' -in gene_listad -out genes_and_all_4.csv" > _04_genes_all_4.sh
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)+OR+(MIGRATION)+OR+(INVASION)' -in gene_listae -out genes_and_all_5.csv" > _04_genes_all_5.sh
+echo "python3 find_articles_pubMed.py -c '(METASTASIS)+OR+(MIGRATION)+OR+(INVASION)' -in gene_listaf -out genes_and_all_6.csv" > _04_genes_all_6.sh
